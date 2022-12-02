@@ -1,0 +1,118 @@
+body {
+    background-color: var(--main-bg-color);
+    color: var(--primary-text-color);
+}
+
+:root {
+    --main-bg-color: #FFFFFF;
+    --secondary-bg-color: #F5F4FA;
+    --add-bg-color: #2F303A;
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --title-text-color: #FFFFFF;
+    --accent-color: #2196F3;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Hide headings */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* Hero */
+.hero {
+    background-color: var(--add-bg-color);
+    color: var(--title-text-color);
+}
+
+/* Site nav */
+.site-nav a {
+    color: var(--secondary-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.logo-header {
+    color: black;
+}
+.web {
+    color: var(--accent-color);
+}
+.header-contacts a
+{
+   color: var(--primary-text-color); 
+}
+.header-contacts a:hover,
+.header-contacts a:focus
+{
+color: var(--accent-color);
+}
+
+/* Section */
+.section-title {
+    color: var(--secondary-text-color);
+}
+
+/* Features */
+.features-list .title {
+    color: var(--secondary-text-color);
+}
+
+/* Team */
+.team {
+    background-color: var(--secondary-bg-color);
+}
+.team .title {
+    color: var(--secondary-text-color);
+}
+
+/* Footer */
+.page-footer {
+    background-color: var(--add-bg-color);
+}
+.logo-footer {
+    color: var(--title-text-color);
+}
+.address {
+color: var(--title-text-color);
+}
+.contacts {
+color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio */
+.portfolio .filter {
+   color: var(--secondary-text-color); 
+}
+
+/*button*/
+.hero button {
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
+}
+.filter button:hover,
+.filter button:focus {
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
+}
+.filter button {
+    color: var(--secondary-text-color);
+    background-color: var(--secondary-bg-color);
+}
