@@ -14,10 +14,7 @@ body {
     color: var(--primary-text-color);
 
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 /* Logo */
@@ -28,7 +25,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-
+    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
@@ -81,7 +78,6 @@ body {
    font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.02em; 
-
    text-decoration: none;
 }
 .header-contacts a:hover,
@@ -94,7 +90,9 @@ color: var(--accent-color);
 .hero {
     background-color: var(--add-bg-color);
     color: var(--title-text-color);
+}
 
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -108,7 +106,6 @@ color: var(--accent-color);
     background-color: var(--accent-color);
 
     font-family: inherit;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -123,9 +120,9 @@ color: var(--accent-color);
     color: var(--secondary-text-color);
     background-color: var(--main-bg-color);
 
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -133,10 +130,9 @@ color: var(--accent-color);
 .section-title {
     color: var(--secondary-text-color);
 
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 
@@ -146,9 +142,9 @@ color: var(--accent-color);
 }
 .team .title {
     color: var(--secondary-text-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
+    letter-spacing: 0.03em;
     line-height: 1.19;
 }
 
@@ -164,11 +160,11 @@ color: var(--accent-color);
 .address {
 color: var(--title-text-color);
 text-decoration: none;
-font-style: normal;
-font-style: normal;
 font-weight: 400;
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
+letter-spacing: 0.03em;
 
 }
 .contacts {
@@ -180,8 +176,6 @@ color: rgba(255, 255, 255, 0.6);
 .portfolio .title {
     color: var(--secondary-text-color); 
 
-    font-style: normal;
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em
@@ -190,6 +184,7 @@ color: rgba(255, 255, 255, 0.6);
 .portfolio p {
 font-size: 16px;
 line-height: 1.88;
+letter-spacing: 0.03em;
 }
 
 /*button*/
